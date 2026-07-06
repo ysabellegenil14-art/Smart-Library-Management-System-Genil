@@ -8,7 +8,16 @@ Project Modules
 - Book Returning
 - Inventory Management
 - Reports
+
 Development Team
 Student Name: Genil, Ysabelle D.
 Course: IT 3012 - System Integration and Architecture 1
 Section: BSIT-SD2C
+
+Member Management Module
+
+Features
+- Register New Member
+- Update Member Information
+- Delete Member Record
+- Search Member
