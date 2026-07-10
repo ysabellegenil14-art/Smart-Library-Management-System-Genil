@@ -1,0 +1,23 @@
+name: Check README File
+
+on:
+ push:
+   branches:
+     - main
+
+jobs:
+ verify-readme:
+   runs-on: ubuntu-latest
+
+   steps:
+     - name: Checkout Repository
+       uses: actions/checkout@v4
+
+     - name: Check if README Exists
+       run: |
+         if [ -f README.md ]; then
+           echo "README.md found."
+         else
+           echo "README.md not found."
+           exit 1
+         fi
